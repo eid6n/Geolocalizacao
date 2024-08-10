@@ -31,6 +31,6 @@ var watchID = navigator.geolocation.watchPosition(sucess, error, {
     timeout: 5000
 });
 
-navigator.geolocation.clearWatch
+//navigator.geolocation.clearWatch(watchID)
 
 
